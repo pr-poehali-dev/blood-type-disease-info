@@ -29,9 +29,6 @@ const BloodTypeNavigation: FC = () => {
               Группа {type.name}
             </Link>
           ))}
-          <Link to="/about" className="px-4 py-2 rounded-md hover:bg-red-100 transition-colors">
-            О проекте
-          </Link>
         </nav>
       </div>
     </div>
