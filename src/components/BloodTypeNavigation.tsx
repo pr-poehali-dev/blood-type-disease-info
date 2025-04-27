@@ -17,6 +17,9 @@ const BloodTypeNavigation: FC = () => {
           <Link to="/" className="px-4 py-2 rounded-md hover:bg-red-100 transition-colors">
             Главная
           </Link>
+          <Link to="/diseases" className="px-4 py-2 rounded-md hover:bg-red-100 transition-colors">
+            Заболевания
+          </Link>
           {bloodTypes.map((type) => (
             <Link
               key={type.id}
